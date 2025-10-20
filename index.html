@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gravity Ship - 중력 센서를 이용한 우주선 아케이드 게임">
+    <title>Gravity Ship - Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .header .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 30px;
+            border-radius: 15px;
+            margin: 20px 0;
+        }
+
+        .contact-box p {
+            font-size: 1.1em;
+            margin: 15px 0;
+        }
+
+        .contact-box a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        .contact-box a:hover {
+            color: #764ba2;
+            text-decoration: underline;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .feature-list li {
+            padding: 15px;
+            margin: 10px 0;
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            border-radius: 5px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .feature-list li:hover {
+            transform: translateX(10px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+        }
+
+        .faq-item {
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+
+        .faq-item strong {
+            color: #667eea;
+            font-size: 1.1em;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            background: #2d3748;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            font-size: 0.9em;
+        }
+
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .icon {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            .section h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="icon">🚀</div>
+            <h1>Gravity Ship</h1>
+            <p class="subtitle">기기를 기울여 우주를 누비는 아케이드 게임</p>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2>📧 문의 및 지원</h2>
+                <div class="contact-box">
+                    <p><strong>이메일:</strong> <a href="mailto:dev.geeyong@gmail.com">dev.geeyong@gmail.com</a></p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/dev-geeyong/Gravity-Ship" target="_blank">github.com/dev-geeyong/Gravity-Ship</a></p>
+                    <p>게임 관련 문의, 버그 리포트, 기능 제안 등 언제든지 연락 주세요!</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>🎮 게임 소개</h2>
+                <p>Gravity Ship은 중력 센서를 활용한 직관적인 조작으로 즐기는 아케이드 게임입니다.
+                기기를 기울여 우주선을 조종하고, 다가오는 장애물을 피하며 최고 점수에 도전하세요!</p>
+            </div>
+
+            <div class="section">
+                <h2>✨ 주요 기능</h2>
+                <ul class="feature-list">
+                    <li>🎯 <strong>직관적인 조작:</strong> 기기를 기울여 우주선을 자유롭게 조종</li>
+                    <li>🌟 <strong>다양한 파워업:</strong> 방패, 속도 증가, 폭발, 무적 등 다양한 아이템</li>
+                    <li>📈 <strong>레벨 시스템:</strong> 점수에 따라 난이도가 증가하는 동적 레벨</li>
+                    <li>🎨 <strong>다양한 우주선:</strong> 5가지 디자인의 우주선 선택 가능</li>
+                    <li>🏆 <strong>성과 시스템:</strong> 게임 결과에 따른 랭크 평가</li>
+                    <li>🌍 <strong>다국어 지원:</strong> 한국어, 영어, 중국어, 스페인어, 일본어</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>📖 게임 방법</h2>
+                <ul class="feature-list">
+                    <li><strong>Step 1:</strong> 원하는 우주선 디자인을 선택하세요</li>
+                    <li><strong>Step 2:</strong> 게임이 시작되면 기기를 기울여 우주선을 조종하세요</li>
+                    <li><strong>Step 3:</strong> 빨간색 장애물을 피하세요</li>
+                    <li><strong>Step 4:</strong> 파워업 아이템을 획득하여 생존 확률을 높이세요</li>
+                    <li><strong>Step 5:</strong> 최대한 오래 살아남아 높은 점수를 획득하세요!</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>💡 자주 묻는 질문</h2>
+
+                <div class="faq-item">
+                    <strong>Q: 게임 조작이 제대로 작동하지 않아요</strong>
+                    <p>A: 설정 → 개인정보 보호 및 보안 → 모션 및 피트니스에서 Gravity Ship의 권한을 확인해주세요.
+                    또한 기기를 평평한 곳에 두고 게임을 시작하면 자동으로 보정됩니다.</p>
+                </div>
+
+                <div class="faq-item">
+                    <strong>Q: 점수가 저장되지 않아요</strong>
+                    <p>A: 게임 종료 시 점수는 자동으로 저장됩니다.
+                    문제가 계속되면 앱을 완전히 종료한 후 다시 시작해보세요.</p>
+                </div>
+
+                <div class="faq-item">
+                    <strong>Q: 광고를 제거할 수 있나요?</strong>
+                    <p>A: 현재 버전에서는 광고 제거 옵션이 없습니다.
+                    향후 업데이트에서 광고 제거 옵션을 추가할 예정입니다.</p>
+                </div>
+
+                <div class="faq-item">
+                    <strong>Q: 게임이 충돌하거나 멈춰요</strong>
+                    <p>A: iOS 최신 버전으로 업데이트하고 앱을 재설치해보세요.
+                    문제가 지속되면 dev.geeyong@gmail.com으로 기기 모델과 iOS 버전을 알려주세요.</p>
+                </div>
+
+                <div class="faq-item">
+                    <strong>Q: 새로운 기능 제안을 하고 싶어요</strong>
+                    <p>A: 환영합니다! dev.geeyong@gmail.com으로 메일을 보내시거나
+                    GitHub Issues에 제안해주세요. 여러분의 의견을 기다립니다!</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>🔒 개인정보 보호</h2>
+                <p>Gravity Ship은 사용자의 개인정보를 소중히 여깁니다.</p>
+                <ul class="feature-list">
+                    <li>게임 점수와 설정은 기기에만 저장됩니다</li>
+                    <li>광고 표시를 위해 Google AdMob을 사용합니다</li>
+                    <li>추적 권한은 선택사항이며, 거부해도 게임을 정상적으로 즐길 수 있습니다</li>
+                    <li>개인 식별 정보를 수집하거나 서버에 전송하지 않습니다</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>🎉 업데이트 예정</h2>
+                <ul class="feature-list">
+                    <li>온라인 리더보드 추가</li>
+                    <li>더 많은 우주선 디자인</li>
+                    <li>보스 스테이지 추가</li>
+                    <li>친구와 점수 공유 기능</li>
+                    <li>광고 제거 옵션</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 Gravity Ship. All rights reserved.</p>
+            <p>Developed by <a href="https://github.com/dev-geeyong" target="_blank">dev-geeyong</a></p>
+            <p style="margin-top: 10px;">
+                <a href="mailto:dev.geeyong@gmail.com">Contact</a> |
+                <a href="https://github.com/dev-geeyong/Gravity-Ship" target="_blank">GitHub</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
